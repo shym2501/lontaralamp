@@ -1,0 +1,16 @@
+.scroll-x {
+  display: flex;
+  max-height: 50px;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.scroll-x::-webkit-scrollbar {
+  display: none;
+}
+
+.shadow-md {
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2) !important;
+}
